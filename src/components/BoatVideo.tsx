@@ -1,5 +1,5 @@
 const BoatVideo = () => {
-    return <video className="h-100vh w-full object-cover animate-clip-path-from-top" autoPlay muted loop>
+    return <video className="h-100vh w-full object-cover animate-clip-path-from-top" autoPlay muted loop playsInline webkit-playsinline={true}>
         <source src="/assets/boat.mp4" type="video/mp4"/>
     </video>
 }
