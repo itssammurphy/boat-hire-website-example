@@ -4,7 +4,7 @@ interface ContentContainerProps {
 
 const ContentContainer : React.FC<ContentContainerProps> = (props) => {
     return (
-        <div className="w-1/2">
+        <div className="w-1/2 <lg:w-full">
             {props.children}
         </div>
     )
